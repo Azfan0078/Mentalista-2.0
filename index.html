@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Mentalista 2.0</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentalista</title>
+    <link rel="stylesheet" href="mentalistadesign.css">
+</head>
+<body>
+        <section id="placar">
+            <h1 style="color: white; text-align: center;">Classificação</h1>
+            <h2 style="color: white; text-align: center;">Vitória: 5 Pontos, Derrota : -5 Pontos, Acertos 1ª: 20 Pontos, 2ª: 15 Pontos, 3ª: 10 Pontos</h2>
+        <table style="width:100%">
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>Vitórias</th>
+                <th>Derrotas</th>
+                <th>Pontos de chances</th>
+                <th>Pontos</th>
+              </tr>
+            </thead>
+            <tbody id="tabelaJogadores">
+            </tbody>
+          </table>
+    </section>
+
+    
+    <section id="jogo">
+        
+        <header>
+        Mentalista
+        </header>
+        
+        <div id="contadorDeChances"></div>
+
+        <p id="selecioneMensagem">Selecione uma dificuldade</p>
+        
+        <p id="mensagem" style="transform: translate(110px);"></p>
+
+        <div id="botoes"></div>
+        <div id="divNomeJogador"></div>
+        
+        <div id="radioDificuldade" onchange="qualSelecionado()">
+
+            <label for="facil">Fácil</label>
+            <input type="radio" name="dificuldade" id="facil" class="dificuldade">
+            <br>
+
+            <label for="normal">Normal</label>
+            <input type="radio" name="dificuldade" id="normal"class="dificuldade">
+            <br>
+
+            <label for="dificil">Difícil</label>
+            <input type="radio" name="dificuldade" id="dificil"class="dificuldade">
+            <br>
+            </div>
+
+            <div id="divSel">
+                <input type="button" value="Selecionar" onclick="selecionar()" class="botoes" id="sel">
+            </div>
+
+        <div id="res"></div>
+    </section>
+
+
+    <footer>
+        &copy Gabriel Di Domenico
+    </footer>
+    <script src="MentalistaScript.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

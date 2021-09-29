@@ -1,0 +1,79 @@
+body{
+    background:rgb(8, 11, 26);
+    background-image: url(https://img.freepik.com/fotos-gratis/fundo-de-textura-de-ruido-digital-com-efeito-de-glitch-preto_53876-103977.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    font-family:monospace;
+    background-size: cover;
+}
+section#jogo{
+    background: white;
+    padding: 10px;
+    margin: auto;
+    width: 400px;
+    border-radius: 10px;
+    height: 220px;
+}
+header{
+    font: bold 20pt arial;
+    text-align: center;
+}
+footer{
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    background: white;
+    border-radius: 10px;
+    transform: translate(0px ,20px);
+}
+div#res{
+    margin: auto;
+    text-align: center;
+    transform: translate(0px, 20px);
+}
+
+.dificuldade{
+    margin-top: 10px;
+}
+.botoes{
+    transform: translate(160px,-50px);
+}
+
+.objeto{
+    transform: translate(170px,3px);
+}
+input#voltar{
+    transform: translate(173px,5px);
+}
+input#numero{
+    width: 30px;
+    transform: translate(179px,0px);
+    
+}
+div#contadorDeChances{
+    font: bold 8pt arial;
+    color: red;
+    transform: translate(150px,-25px);
+    text-align: center;
+}
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+
+  }
+
+th,
+tr,
+td {
+  border: solid 1px white;
+  color: white;
+}
+section#placar{
+    margin-top: 100px;
+    height: 200px;
+    background-color: transparent;
+
+}
+input#voltarMenu{
+margin-top: 30px;
+transform: translate(133px);
+}
